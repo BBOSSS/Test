@@ -1,0 +1,4 @@
+--cpu Cortex-M3 ".\obj\cortexm3_macro.o" ".\obj\stm32f10x_vector.o" ".\obj\stm32f10x_it.o" ".\obj\configuration.o" ".\obj\stm32f10x_exti.o" ".\obj\stm32f10x_flash.o" ".\obj\stm32f10x_lib.o" ".\obj\stm32f10x_nvic.o" ".\obj\stm32f10x_rcc.o" ".\obj\stm32f10x_usart.o" ".\obj\stm32f10x_gpio.o" ".\obj\main.o" --strict --scatter ".\obj\STM32_OV7620.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\list\STM32_OV7620.map" -o ".\obj\STM32_OV7620.axf"
